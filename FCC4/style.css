@@ -1,0 +1,25 @@
+#main-doc{
+    outline: solid red;
+    margin-left: 450px ;
+}
+
+#page {
+    display: flex;
+}
+
+#navbar{
+    display: flex; 
+    flex-direction: column;
+    position: fixed;
+    
+    outline: solid;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.nav-link{
+    outline: red dotted; 
+    display: block; 
+    padding: 30px 20px;
+    
+}
